@@ -7,5 +7,12 @@ $( document ).ready(function() {
             $logo.toggleClass('colored', $(this).scrollTop() > $nav.height());
         });
     });
+    var animation = bodymovin.loadAnimation({
+        container: document.getElementById('imageSVG'),
+        renderer: 'svg',
+        loop: false,
+        autoplay: true,
+        path: 'images/data.json'
+      })
 });
 
