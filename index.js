@@ -4,7 +4,7 @@ $( document ).ready(function() {
         renderer: 'svg',
         loop: false,
         autoplay: true,
-        path: 'images/ggwp.json'
+        path: 'images/BodyMovin.json'
     })
 });
 
