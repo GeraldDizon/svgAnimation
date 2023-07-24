@@ -13,5 +13,12 @@ $( document ).ready(function() {
         autoplay: true,
         path: 'images/Tea/data1.json'
     })
+    var animation = bodymovin.loadAnimation({
+        container: document.getElementById('logoSVG'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'images/logogray.json'
+    })
 });
 
